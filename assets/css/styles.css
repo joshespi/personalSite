@@ -9,7 +9,9 @@ ref-https://www.schemecolor.com/black-and-red-color-combination.php
 	--red-Lust: #e31c25;
 	--black-EerieBlack:#1c1c1c;
 	--black-ChineseBlack: #161616;
+  --white-plain:#fff;
 }
+
 
 /*
 ==============================================================
@@ -78,8 +80,7 @@ body {
 #mainHeader {
   grid-area: header;
   text-align: center;
-	padding: 1% 2%;
-	max-height: 260px;
+	padding: 1% 1%;
 }
 #mainHeader img {
 	grid-area: avatar;
@@ -87,6 +88,10 @@ body {
 	border-radius: 50%;
 	max-height: 200px;
 	max-width: 200px;
+}
+#mainHeader .mainNav {
+  grid-area: mainMenu;
+
 }
 #siteContent {
   grid-area: main;
@@ -125,24 +130,29 @@ h2 {
 }
 /*
 ==============================================================
+typography
+==============================================================
+*/
+a {color: var(--white-plain);text-decoration: none;}
+a:hover{color:#ccc;}
+/*
+==============================================================
 Responsive
 ==============================================================
 */
 @media (min-width:600px) {
-	h1 {
-		position: relative;
-		top: 50%;
-	}
-	#mainHeader {
-		display: grid;
-		grid-template-columns: 20% 80%;
-		grid-template-areas:"avatar siteTitle"
-	}
-	#siteContent {
-		display: grid;
-		grid-template-columns: 32% 32% 32%;
-	 	column-gap: 2%;
-	 	row-gap: 2%;
-		padding: 1%;
-	}
+  #mainHeader {
+  		display: grid;
+  		grid-template-columns: 10% 90%;
+  		grid-template-areas:
+            "avatar siteTitle"
+            "avatar mainMenu"
+  	}
+  	#siteContent {
+  		display: grid;
+  		grid-template-columns: 32% 32% 32%;
+  	 	column-gap: 2%;
+  	 	row-gap: 2%;
+  		padding: 1%;
+  	}
 }
