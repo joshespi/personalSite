@@ -1,7 +1,7 @@
 <?php
   include("template/header.php");
  ?>
-       <section id="siteContent">
+       <section id="siteContent" class="resume page">
       <h2>Resume</h2>
 
      </section>
