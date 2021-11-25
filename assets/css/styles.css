@@ -11,14 +11,15 @@ ref-https://www.schemecolor.com/black-and-red-color-combination.php
 	--black-ChineseBlack: #161616;
   --white-plain:#fff;
 }
-
-
 /*
 ==============================================================
 Fonts
+font-family: 'Genos', sans-serif;
+font-family: 'Indie Flower', cursive;
+font-family: 'Press Start 2P', cursive;
+font-family: 'Source Code Pro', monospace;
 ==============================================================
 */
-@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Source+Code+Pro&display=swap');
 /*
 ==============================================================
 CSS Reset
@@ -27,19 +28,7 @@ http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
 	margin: 0;
 	padding: 0;
 	border: 0;
@@ -48,8 +37,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 ol, ul {
@@ -58,8 +46,7 @@ ol, ul {
 blockquote, q {
 	quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
+blockquote:before, blockquote:after, q:before, q:after {
 	content: '';
 	content: none;
 }
@@ -69,7 +56,7 @@ table {
 }
 img {width: 100%;}
 body {
-	font-family: 'Source Code Pro', monospace;
+	font-family: 'Genos', sans-serif;
   background-color: var(--black-EerieBlack);
   font-size:100%;
 	line-height: 1;
@@ -123,8 +110,8 @@ page styles
 Headings
 ==============================================================
 */
-h2,h3,h4,h5,h6 {
-	 font-family: 'Press Start 2P', cursive;
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Press Start 2P', cursive;
 		margin-bottom: 10px;
 		color: var(--red-Lust);
 }

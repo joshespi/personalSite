@@ -21,7 +21,13 @@
   <meta property="og:url" content="https://iamjoshespinoza.com">
   <meta property="og:description" content="A Website for Josh Espinoza">
   <meta property="og:image" content="assets/img/Espi-Eth-lasereye.jpg">
-  <link rel="stylesheet" href="assets/css/styles.css?v=1.01">
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Genos&family=Indie+Flower&family=Press+Start+2P&family=Source+Code+Pro&display=swap" rel="stylesheet">
+  <!-- End Fonts -->
+
+  <link rel="stylesheet" href="assets/css/styles.css?v=1.0.1">
 </head>
 
 <body>
