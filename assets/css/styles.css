@@ -61,6 +61,11 @@ body {
   font-size:100%;
 	line-height: 1;
 }
+/*
+================================================================================
+Main Structure Styles
+================================================================================
+*/
 #siteWrapper {
   background-color: transparent;
 }
@@ -89,7 +94,7 @@ body {
 	border-radius: 5px;
 	text-align: center;
 	margin-bottom: 15px;
-	padding: 1%;
+	padding: 2.5% 0%;
 }
 #mainFooter {
   grid-area: footer;
@@ -213,7 +218,7 @@ a:hover{color:#ccc;}
 ==============================================================
 Responsive
 ==============================================================
-*/
+
 @media (min-width:600px) {
   #mainHeader {
   		display: grid;
@@ -230,3 +235,4 @@ Responsive
   		padding: 1%;
   	}
 }
+*/
