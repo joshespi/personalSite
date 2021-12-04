@@ -40,32 +40,18 @@
          </a>
    </header>
    <nav class="navbar">
-        <ul class="nav-menu">
-            <li class="nav-item">
+
                 <a href="https://twitter.com/The_Espi">My Twitter</a>
-            </li>
-            <li class="nav-item">
+
                 <a href="https://discord.gg/g9VrnM59Ut">Join My Discord</a>
-            </li>
-            <li class="nav-item">
+
                 <a href="https://www.youtube.com/user/Joshespi">My Youtube</a>
-            </li>
-            <li class="nav-item">
+
                 <a href="https://www.linkedin.com/in/josh-espinoza-200ab7210?trk=public-profile-badge-profile-badge-view-profile-cta">My linkedin</a>
-            </li>
-            <li class="nav-item">
+
                 <a href="https://parentallychallengedpodcast.com/">Parentally Challenged Podcast</a>
-            </li>
-            <li class="nav-item">
+
                 <a href="https://github.com/joshespi">My Github</a>
-            </li>
-            <li class="nav-item">
+
                 <a href="https://gist.github.com/joshespi">My Gists</a>
-            </li>
-        </ul>
-        <div class="hamburger">
-            <span class="bar"></span>
-            <span class="bar"></span>
-            <span class="bar"></span>
-        </div>
     </nav>

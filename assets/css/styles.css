@@ -84,7 +84,6 @@ Main Structure Styles
 }
 #mainHeader .mainNav {
   grid-area: mainMenu;
-
 }
 #siteContent {
   grid-area: main;
@@ -107,41 +106,29 @@ Navigation Styles
 ================================================================================
 */
 .navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1rem 1.5rem;
-    position: relative;
+    display:block;
+    padding: .25rem 0;
+    top: 2rem;
+    background-color: var(--transparent);
+    width: 100%;
+    font-size: 1.5em;
+    text-align: center;
 }
-.hamburger {
-    display: none;
-}
-.bar {
+.navbar a {
     display: block;
-    width: 25px;
-    height: 3px;
-    margin: 5px auto;
-    -webkit-transition: all 0.3s ease-in-out;
-    transition: all 0.3s ease-in-out;
-    background-color: #fff;
+    margin: 10px 0;
 }
-.nav-menu {
+@media only screen and (min-width: 600px) {
+  .navbar {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: space-around;
+  }
+  .navbar a {
+      box-shadow: 0 10px 27px var(--dark-red-UERed);
+  }
 }
-.nav-item {
-    margin-left: 5rem;
-}
-.nav-link{
-    font-size: 1.6rem;
-    font-weight: 400;
-    color: #475569;
-}
-.nav-link:hover{
-    color: #482ff7;
-}
-@media only screen and (max-width: 768px) {
+
+/*
     .nav-menu {
         position: relative;
         left: -9999%;
@@ -163,7 +150,7 @@ Navigation Styles
     }
     .hamburger {
         display: block;
-        position: absolute;
+        position: relative;
         right: 0;
         top: 0;
         cursor: pointer;
@@ -178,6 +165,7 @@ Navigation Styles
         transform: translateY(-8px) rotate(-45deg);
     }
 }
+*/
 /*
 ==============================================================
 page styles
