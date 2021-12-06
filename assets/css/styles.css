@@ -5,11 +5,11 @@ ref-https://www.schemecolor.com/black-and-red-color-combination.php
 ==============================================================
 */
 :root {
-  --dark-red-UERed: #bb000e;
-	--red-Lust: #e31c25;
-	--black-EerieBlack:#1c1c1c;
-	--black-ChineseBlack: #161616;
-  --white-plain:#fff;
+  --red-dark: #941305;
+	--red-light: #cc2c11;
+	--black:#030303;
+  --blue:#145b9c;
+  --grey:#747d90;
   --transparent:transparent;
 }
 /*
@@ -40,6 +40,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
 	display: block;
+  border: 1px solid var(--red-light);
 }
 ol, ul {
 	list-style: none;
@@ -58,7 +59,7 @@ table {
 img {width: 100%;}
 body {
 	font-family: 'Genos', sans-serif;
-  background-color: var(--black-EerieBlack);
+  background-color: var(--black);
   font-size:100%;
 	line-height: 1;
 }
@@ -90,7 +91,6 @@ Main Structure Styles
 	padding: 1% 2%;
 }
 #siteContent article {
-	background-color: var(--dark-red-UERed);
 	border-radius: 5px;
 	text-align: center;
 	margin-bottom: 15px;
@@ -109,7 +109,6 @@ Navigation Styles
     display:block;
     padding: .25rem 0;
     top: 2rem;
-    background-color: var(--transparent);
     width: 100%;
     font-size: 1.5em;
     text-align: center;
@@ -124,7 +123,6 @@ Navigation Styles
     justify-content: space-around;
   }
   .navbar a {
-      box-shadow: 0 10px 27px var(--dark-red-UERed);
   }
 }
 
