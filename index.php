@@ -44,6 +44,19 @@
             <p>I'm inviting you to start investing in crypto with Voyager. Download the app and trade $100 to get $25 of free Bitcoin.
             <p><a href="https://voyager.onelink.me/WNly/referral?af_sub5=JOS686D6A">Use code JOS686D6A or this link to claim your BTC</a></p>
           </article>
+        <h3>Crypto Projects</h3>
+          <article>
+            <h4>Pi Network</h4>
+              <p>
+                Pi is a new digital currency developed by Stanford PhDs, with over 25 million members worldwide. <a href="https://minepi.com/Espi2988">claim your Pi, follow use my username (Espi2988) as your invitation code</a>.
+              </p>
+          </article>
+          <article>
+            <h4>BEE Network</h3>
+              <p>
+                <a href="https://bee.com/en/download">Download BEE Network. Use the invitation code: coinspi.</a>
+              </p>
+          </article>
      </section>
      <?php
        include("template/footer.php");
