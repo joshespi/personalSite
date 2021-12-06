@@ -40,7 +40,13 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
 	display: block;
+  padding: 1%;
+}
+article {
   border: 1px solid var(--red-light);
+  border-radius: 5px;
+  padding: 1%;
+  margin-bottom: 15px;
 }
 ol, ul {
 	list-style: none;
@@ -57,11 +63,19 @@ table {
 	border-spacing: 0;
 }
 img {width: 100%;}
+em {font-style: italic;}
+strong {font-weight: bold;}
 body {
 	font-family: 'Genos', sans-serif;
   background-color: var(--black);
   font-size:100%;
 	line-height: 1;
+  text-align: center;
+  color: #fff;
+}
+p {margin: 1%;}
+a {color: var(--blue);text-decoration: none;}
+a:hover{color:var(--grey);text-decoration: underline;}
 ==============================================================
 Headings
 ==============================================================
