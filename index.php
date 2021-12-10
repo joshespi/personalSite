@@ -3,10 +3,18 @@
  ?>
     <section id="siteContent">
       <h2>My Projects</h2>
-         <article>
-           <h3>Parentally Challenged Podcast</h3>
+        <h3>Personal Projects</h3>
+          <article>
+           <h4>Parentally Challenged Podcast</h4>
            <a href="https://parentallychallengedpodcast.com/">Parentally Challenged Podcast</a>
-         </article>
+          </article>
+          <!--
+        <h3>Projects I've Contributed to</h3>
+          <article>
+           <h4>Parentally Challenged Podcast</h4>
+           <a href="https://parentallychallengedpodcast.com/">Parentally Challenged Podcast</a>
+          </article>
+        -->
       <h2>Referral Links</h2>
         <h3>Portfolio Tracking</h3>
           <article>
@@ -45,6 +53,12 @@
             <p><a href="https://voyager.onelink.me/WNly/referral?af_sub5=JOS686D6A">Use code JOS686D6A or this link to claim your BTC</a></p>
           </article>
         <h3>Crypto Projects</h3>
+          <article>
+            <h4>Brave Browser</h4>
+              <p>
+              <a href="https://brave.com/">Learn More About Brave</a>.
+              </p>
+          </article>
           <article>
             <h4>Pi Network</h4>
               <p>
