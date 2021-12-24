@@ -24,6 +24,7 @@
         <h3>Stock Investing</h3>
           <article>
             <h4>Webull</h4>
+            <p>this is what I personally use for my RothIRA</p>
             <p>Limited time offer: <a href="https://a.webull.com/8XVZUBSD2cWyWHx1l4">Open an account with Webull and get a free stock! Fund it with any amount and get one more!</a></p>
           </article>
           <article>
