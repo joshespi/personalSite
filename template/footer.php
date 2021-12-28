@@ -5,9 +5,10 @@
 </aside>
 <footer id="mainFooter">
 
-    <h2>Crypto Wallets</h2>
+    <h2>Crypto Wallets</h2><p>If you would like to donate.</p>
     <p>BTC - 3MvjFQNAUEYEwXwAM3W4yhCn3WgbsfxzRQ</p>
-    <p>Eth - 0x370E4D177B71cfe1a7F3C1A7cD0aDcEa944C96a7</p>
+    <p>ETH - 0x7F91FA9bD62fEB59c9BbF68C748A1480b79Ab50a</p>
+    <p>SOL - 868uQpTGt2JTr3VRFTaV9s6aSY5oNEwDCUakdwtLL8SK</p>
 </footer>
   <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
   <script src="assets/js/scripts.js?v=0.0.1"></script>
