@@ -78,7 +78,7 @@ body {
   text-align: center;
   color: var(--white);
 }
-p {margin: 1%;}
+p {margin: 1em 1em;}
 a {color: var(--blue);text-decoration: none;}
 a:hover{color:var(--grey);}
 /*
