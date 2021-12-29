@@ -6,7 +6,7 @@
 <footer id="mainFooter">
 
     <h2>Crypto Wallets</h2><p>If you would like to donate.</p>
-    <p>BTC - 3MvjFQNAUEYEwXwAM3W4yhCn3WgbsfxzRQ</p>
+    <p>BTC - bc1qukxp75cfu675fneaxle7904gd5gl9rylnzs44q</p>
     <p>ETH - 0x7F91FA9bD62fEB59c9BbF68C748A1480b79Ab50a</p>
     <p>SOL - 868uQpTGt2JTr3VRFTaV9s6aSY5oNEwDCUakdwtLL8SK</p>
 </footer>
