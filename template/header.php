@@ -35,7 +35,6 @@
   </header>
   <nav id="navbar">
      <a href="https://twitter.com/The_Espi">My Twitter</a>
-     <a href="https://discord.gg/g9VrnM59Ut">Join My Discord</a>
      <a href="https://www.linkedin.com/in/josh-espinoza-200ab7210?trk=public-profile-badge-profile-badge-view-profile-cta">My LinkedIn</a>
      <a href="https://github.com/joshespi">My Github</a>
      <a href="https://gist.github.com/joshespi">My Gists</a>
