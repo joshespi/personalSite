@@ -35,9 +35,9 @@
   </header>
   <nav id="navbar">
      <a href="https://twitter.com/The_Espi">My Twitter</a>
-     <a href="https://www.linkedin.com/in/josh-espinoza-200ab7210?trk=public-profile-badge-profile-badge-view-profile-cta">My LinkedIn</a>
+     <a href="https://www.youtube.com/user/Joshespi">My Youtube</a>
      <a href="https://github.com/joshespi">My Github</a>
      <a href="https://gist.github.com/joshespi">My Gists</a>
-     <a href="https://iamjoshespinoza.com/wordpress/contact-me/">Contact Me</a>
+     <a href="https://espifam.com/contact-us/">Contact Me</a>
    </nav>
   <main id="siteWrapper">
