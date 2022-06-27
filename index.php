@@ -20,8 +20,11 @@
           </article>
 
 
-      
+
         -->
+        <aside class="twitter">
+          <a class="twitter-timeline" data-width="1000" data-theme="dark" href="https://twitter.com/The_Espi?ref_src=twsrc%5Etfw">Tweets by The_Espi</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </aside>
 
      </section>
      <?php

@@ -1,11 +1,15 @@
 <!doctype html>
 <html lang="en">
+
 <head>
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-198253017-1"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
     gtag('js', new Date());
     gtag('config', 'UA-198253017-1');
   </script>
@@ -24,20 +28,24 @@
   <link href="https://fonts.googleapis.com/css2?family=Genos&family=Indie+Flower&family=Press+Start+2P&family=Source+Code+Pro&display=swap" rel="stylesheet">
   <!--  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
   <!-- End Fonts -->
-  <link rel="stylesheet" href="assets/css/styles.css?v=0.0.4">
+  <link rel="stylesheet" href="assets/css/styles.css?v=0.0.05">
 </head>
+
 <body>
   <header id="mainHeader">
-        <a href="index.php">
-          <h1>I Am Josh Espinoza</h1>
-          <img src="assets/img/Espi-Eth-lasereye.jpg" alt="Josh" />
-        </a>
+    <a href="index.php">
+      <h1>I Am Josh Espinoza</h1>
+      <img src="assets/img/Espi-Eth-lasereye.jpg" alt="Josh" />
+    </a>
   </header>
   <nav id="navbar">
-     <a href="https://twitter.com/The_Espi">My Twitter</a>
-     <a href="https://www.youtube.com/user/Joshespi">My Youtube</a>
-     <a href="https://github.com/joshespi">My Github</a>
-     <a href="https://gist.github.com/joshespi">My Gists</a>
-     <a href="https://espifam.com/contact-us/">Contact Me</a>
-   </nav>
+    <a>Main Menu</a>
+    <ul>
+      <li><a href="https://twitter.com/The_Espi">My Twitter</a></li>
+      <li><a href="https://www.youtube.com/user/Joshespi">My Youtube</a></li>
+      <li><a href="https://github.com/joshespi">My Github</a></li>
+      <li><a href="https://gist.github.com/joshespi">My Gists</a></li>
+      <li><a href="https://espifam.com/contact-us/">Contact Me</a></li>
+    </ul>
+  </nav>
   <main id="siteWrapper">
