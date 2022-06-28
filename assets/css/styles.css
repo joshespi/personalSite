@@ -259,6 +259,7 @@ Navigation Styles
   top: 2rem;
   width: 100%;
   font-size: 1.5em;
+  margin: 10px 0 10px 0;
 }
 #navbar a {
   margin: 10px 0;
@@ -270,6 +271,7 @@ Navigation Styles
 }
 #navbar ul {
   display: none;
+  margin: 10px 0;
   justify-content: space-around;
 }
 #navbar ul.active {
