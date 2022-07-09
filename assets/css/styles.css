@@ -1,7 +1,7 @@
 /*
 ==============================================================
 Variables
-ref-https://www.schemecolor.com/black-and-red-color-combination.php
+ref -> https://www.schemecolor.com/black-and-red-color-combination.php
 ==============================================================
 */
 :root {
@@ -196,25 +196,30 @@ Headings
 h1,
 h2,
 h3,
-h4,
-h5,
-h6 {
+h4 {
   font-family: "Press Start 2P", cursive;
   margin: 20px 0 15px 0;
+
   color: var(--red-dark);
 }
 h1 {
-  font-size: 2.5rem;
+  font-size: 2rem;
 }
 h2 {
-  font-size: 2.2rem;
+  font-size: 1.75rem;
 }
 h3 {
-  font-size: 1.9rem;
+  font-size: 1.5rem;
 }
 h4 {
-  font-size: 1.6rem;
+  font-size: 1.25rem;
 }
+/*
+================================================================================
+Utility Classes
+================================================================================
+*/
+.hidden {position:absolute;left:-9999px;}
 /*
 ================================================================================
 Main Structure Styles
@@ -238,6 +243,11 @@ header Styles
   border-radius: 50%;
   max-height: 150px;
   max-width: 150px;
+}
+#siteTitle {
+  font-size: 2.5em;
+  font-family: "Press Start 2P", cursive;
+  color: var(--red-dark);
 }
 @media only screen and (min-width: 1100px) {
   #mainHeader a {
@@ -280,7 +290,7 @@ Navigation Styles
 #navbar ul li a {
   display: block;
 }
-@media (min-width: 600px) {
+@media (min-width: 650px) {
   #navbar > a {
     display: none;
   }
@@ -293,24 +303,19 @@ Navigation Styles
 Content Area
 ================================================================================
 */
-@media only screen and (min-width: 815px) {
-  #siteContent {
-    /*
+
+#siteWrapper section {
+  grid-area: section;
+}
+#siteWrapper aside {
+  grid-area: aside;
+}
+@media (min-width: 900px) {
+  #siteWrapper {
     display: grid;
-    grid-template-columns: 32% 32% 32%;
-    grid-gap: .33%;
-    font-size: 1em;
-    justify-content: space-evenly;
-    */
-  }
-  #siteContent h2,
-  #siteContent h3 {
-    grid-column: 1 / 4;
-  }
-  #siteContent .twitter {
-  }
-  #disclaimer {
-    margin-top: 70px;
+    grid-template-columns: 1fr 300px;
+    grid-template-areas: 
+    "section aside";
   }
 }
 /*
