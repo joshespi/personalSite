@@ -47,6 +47,7 @@ Navigation Styles
 }
 #navbar > a {
   justify-self: end;
+  display: none;
 }
 #navbar a {
   padding: 10px;
@@ -54,8 +55,8 @@ Navigation Styles
   box-shadow: 0 5px 5px var(--red-dark);
 }
 #navbar ul {
-  display: none;
-  justify-content: space-around;
+  /* display: none; */
+  justify-content: space-evenly;
   margin-left: -32px;
 }
 #navbar ul.active {
@@ -69,7 +70,7 @@ Navigation Styles
 }
 @media (min-width: 700px) {
   #navbar > a {
-    display: none;
+    /* display: none; */
   }
   #navbar ul {
     display: flex;
