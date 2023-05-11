@@ -5,7 +5,8 @@ Variables
 */
 :root {
   --red-dark: #941305;
-  --black: #030303;
+  --theme-black: #030303;
+  --theme-white: #fff;
 }
 /*
 ==============================================================
@@ -19,7 +20,15 @@ font-family: 'Source Code Pro', monospace;
 
 body {
   font-family: "Source Code Pro", monospace;
-  background-color: var(--black);
+  background-color: var(--theme-black);
+}
+article {
+  background-color: var(--theme-white);
+  border-radius: 5px;
+  padding: 0 1em;
+}
+ul {
+  list-style: none;
 }
 /*
 ==============================================================
@@ -29,7 +38,8 @@ Headings
 h1,
 h2,
 h3,
-h4 {
+h4,
+#siteTitle {
   font-family: "Press Start 2P", cursive;
   margin: 20px 0 15px 0;
   color: var(--red-dark);
@@ -42,6 +52,7 @@ Navigation Styles
 #navbar {
   font-family: "Genos", sans-serif;
   display: grid;
+  width: 100%;
   font-size: 1.5em;
   margin: 25px 0 25px 0;
 }
@@ -55,23 +66,17 @@ Navigation Styles
   box-shadow: 0 5px 5px var(--red-dark);
 }
 #navbar ul {
-  /* display: none; */
   justify-content: space-evenly;
   margin-left: -32px;
 }
 #navbar ul.active {
   display: block;
 }
-#navbar ul li {
-  list-style: none;
-}
 #navbar ul li a {
   display: block;
+  border-radius: 5px;
 }
 @media (min-width: 700px) {
-  #navbar > a {
-    /* display: none; */
-  }
   #navbar ul {
     display: flex;
   }
@@ -84,15 +89,26 @@ Content Area
 #mainHeader {
   display: grid;
   justify-content: center;
+  place-items: center;
 }
 #mainHeader img {
   border-radius: 50%;
   max-width: 25vw;
 }
+@media (min-width: 700px) {
+  #mainHeader {
+    grid-template-columns: 1fr 300px;
+    min-height: 300px;
+  }
+}
 #siteWrapper {
   text-align: center;
+  padding: 0 1em;
 }
-#aboutMe,
-.twitter {
-  display: none;
+@media (min-width: 800px) {
+  .grid3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1em;
+  }
 }
