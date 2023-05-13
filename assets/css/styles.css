@@ -24,8 +24,8 @@ body {
 }
 article {
   background-color: var(--theme-white);
-  border-radius: 5px;
-  padding: 0 1em;
+  /* border-radius: 3px; */
+  padding: 1em;
   position: relative;
   background-size: cover;
 }
@@ -76,7 +76,7 @@ Navigation Styles
 }
 #navbar ul li a {
   display: block;
-  border-radius: 5px;
+  /* border-radius: 5px; */
 }
 @media (min-width: 700px) {
   #navbar ul {
@@ -108,7 +108,8 @@ Content Area
   padding: 0 1em;
 }
 .bk-image {
-  background-image: url("../img/Espi-Eth-lasereye.jpg");
+  /* background-image: url("../img/Espi-Eth-lasereye.jpg"); */
+  min-height: 300px;
 }
 .overlay {
   position: absolute;
@@ -138,10 +139,16 @@ article:hover .overlay {
 .overlay a:hover {
   text-decoration: underline;
 }
+.grid3 {
+  display: grid;
+  gap: 1em;
+  
+}
 @media (min-width: 800px) {
   .grid3 {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 1em;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .grid3 article:nth-child(3) {
+    grid-column: 1 / 3;
   }
 }
