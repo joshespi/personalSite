@@ -26,6 +26,8 @@ article {
   background-color: var(--theme-white);
   border-radius: 5px;
   padding: 0 1em;
+  position: relative;
+  background-size: cover;
 }
 ul {
   list-style: none;
@@ -104,6 +106,37 @@ Content Area
 #siteWrapper {
   text-align: center;
   padding: 0 1em;
+}
+.bk-image {
+  background-image: url("../img/Espi-Eth-lasereye.jpg");
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  transition: opacity 0.3s;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+article:hover .overlay {
+  opacity: 1;
+}
+
+.overlay a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  margin: 5px;
+}
+
+.overlay a:hover {
+  text-decoration: underline;
 }
 @media (min-width: 800px) {
   .grid3 {
