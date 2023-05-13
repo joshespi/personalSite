@@ -32,6 +32,7 @@ article {
 ul {
   list-style: none;
 }
+
 /*
 ==============================================================
 Headings
@@ -107,6 +108,9 @@ Content Area
   text-align: center;
   padding: 0 1em;
 }
+#siteWrapper li {
+  margin: 1em;
+}
 .bk-image {
   /* background-image: url("../img/Espi-Eth-lasereye.jpg"); */
   min-height: 300px;
@@ -142,7 +146,6 @@ article:hover .overlay {
 .grid3 {
   display: grid;
   gap: 1em;
-  
 }
 @media (min-width: 800px) {
   .grid3 {
