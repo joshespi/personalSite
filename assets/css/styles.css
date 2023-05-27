@@ -8,27 +8,25 @@ Variables
   --theme-black: #030303;
   --theme-white: #fff;
 }
+
 /*
 ==============================================================
 Fonts
-font-family: 'Genos', sans-serif;
-font-family: 'Indie Flower', cursive;
-font-family: 'Press Start 2P', cursive;
-font-family: 'Source Code Pro', monospace;
 ==============================================================
 */
-
 body {
   font-family: "Source Code Pro", monospace;
   background-color: var(--theme-black);
 }
+
 article {
   background-color: var(--theme-white);
-  /* border-radius: 3px; */
   padding: 1em;
   position: relative;
   background-size: cover;
+  background-position: center center;
 }
+
 ul {
   list-style: none;
 }
@@ -47,10 +45,11 @@ h4,
   margin: 20px 0 15px 0;
   color: var(--red-dark);
 }
+
 /*
-================================================================================
+==============================================================
 Navigation Styles
-================================================================================
+==============================================================
 */
 #navbar {
   font-family: "Genos", sans-serif;
@@ -59,62 +58,73 @@ Navigation Styles
   font-size: 1.5em;
   margin: 25px 0 25px 0;
 }
+
 #navbar > a {
   justify-self: end;
   display: none;
 }
+
 #navbar a {
   padding: 10px;
   color: var(--red-dark);
   box-shadow: 0 5px 5px var(--red-dark);
 }
+
 #navbar ul {
   justify-content: space-evenly;
   margin-left: -32px;
 }
+
 #navbar ul.active {
   display: block;
 }
+
 #navbar ul li a {
   display: block;
-  /* border-radius: 5px; */
 }
+
 @media (min-width: 700px) {
   #navbar ul {
     display: flex;
   }
 }
+
 /*
-================================================================================
+==============================================================
 Content Area
-================================================================================
+==============================================================
 */
 #mainHeader {
   display: grid;
   justify-content: center;
   place-items: center;
 }
+
 #mainHeader img {
   border-radius: 50%;
   max-width: 25vw;
 }
+
 @media (min-width: 700px) {
   #mainHeader {
     grid-template-columns: 1fr 600px;
     min-height: 300px;
   }
 }
+
 #siteWrapper {
   text-align: center;
   padding: 0 4em;
 }
+
 #siteWrapper li {
   margin: 1em;
 }
+
 .bk-image {
-  /* background-image: url("../img/Espi-Eth-lasereye.jpg"); */
   min-height: 300px;
 }
+
 .overlay {
   position: absolute;
   top: 0;
@@ -129,6 +139,7 @@ Content Area
   justify-content: center;
   align-items: center;
 }
+
 article:hover .overlay {
   opacity: 1;
 }
@@ -143,17 +154,21 @@ article:hover .overlay {
 .overlay a:hover {
   text-decoration: underline;
 }
+
 .grid3 {
   display: grid;
   gap: 1em;
 }
-@media (min-width: 800px) {
+
+@media (min-width: 1000px) {
   .grid3 {
     grid-template-columns: repeat(2, 1fr);
   }
+
   .grid3 article:nth-child(3) {
     grid-column: 1 / 3;
   }
+
   .bk-image {
     min-height: 700px;
   }
