@@ -165,7 +165,7 @@ article:hover .overlay {
     grid-template-columns: repeat(2, 1fr);
   }
 
-  .grid3 article:nth-child(3) {
+  .grid3 article:nth-child(1) {
     grid-column: 1 / 3;
   }
 
