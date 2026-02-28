@@ -1,78 +1,205 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>I Am Josh Espinoza</title>
+    <meta name="description" content="Welcome to I Am Josh Espinoza." />
+    <link rel="icon" href="assets/img/favicon.ico" type="image/x-icon" />
+    <!-- Tailwind CSS -->
+    <link href="/assets/css/tailwind.css" rel="stylesheet" />
 
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>I Am Josh Espinoza</title>
-  <meta name="description" content="Welcome to I Am Josh Espinoza." />
-  <meta property="og:title" content="I am Josh Espinoza" />
-  <meta property="og:type" content="personal website" />
-  <meta property="og:url" content="https://iamjoshespinoza.com" />
-  <meta property="og:description" content="A Website for Josh Espinoza" />
-  <meta property="og:image" content="assets/img/espi-btc-lasereyes-400.jpg" />
-  <link rel="icon" href="assets/img/favicon.ico" type="image/x-icon" />
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-YDS26RRFVJ"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+      gtag("config", "G-YDS26RRFVJ");
+    </script>
+  </head>
+  <body class="bg-gray-900 text-gray-100 font-sans">
+    <!-- Header / Hero -->
+    <header
+      class="flex flex-col items-center py-12 bg-gradient-to-b from-gray-900 to-gray-800"
+    >
+      <img
+        src="assets/img/espi-btc-lasereyes-400.jpg"
+        alt="Josh"
+        class="w-32 h-32 rounded-full border-4 border-yellow-400 shadow-lg mb-4"
+      />
+      <h1 class="text-4xl font-bold mb-2">Josh Espinoza</h1>
+      <p class="text-lg text-gray-400 mb-4">
+        Developer • Builder • Problem Solver
+      </p>
+      <div class="flex space-x-4">
+        <a
+          href="https://github.com/joshespi"
+          class="text-gray-300 hover:text-yellow-400 transition"
+          >GitHub</a
+        >
+        <a
+          href="https://resume.iamjoshespinoza.com/"
+          class="text-gray-300 hover:text-yellow-400 transition"
+          >Resume</a
+        >
+        <a
+          href="https://espifam.com/contact/"
+          class="text-gray-300 hover:text-yellow-400 transition"
+          >Contact</a
+        >
+      </div>
+    </header>
 
-  <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-YDS26RRFVJ"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() {
-      dataLayer.push(arguments);
-    }
-    gtag("js", new Date());
-    gtag("config", "G-YDS26RRFVJ");
-  </script>
+    <main class="max-w-6xl mx-auto px-4 py-10 space-y-16">
+      <!-- About Section -->
+      <section id="about" class="text-center">
+        <h2 class="text-2xl font-semibold mb-4">About Me</h2>
+        <p class="text-gray-300 max-w-2xl mx-auto">
+          Hi! I'm Josh, a passionate developer with experience in PHP, Python,
+          and web technologies. I love building tools that make life easier and
+          exploring new tech.
+        </p>
+      </section>
 
-  <!-- Fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link rel="stylesheet"
-    href="https://fonts.googleapis.com/css2?family=Genos&family=Indie+Flower&family=Press+Start+2P&family=Source+Code+Pro&display=swap" />
+      <!-- Projects Section -->
+      <section id="projects">
+        <h2 class="text-2xl font-semibold mb-6 text-center">Projects</h2>
+        <div class="grid lg:grid-cols-3 md:grid-cols-2 gap-8">
+          <div
+            class="bg-gray-800 rounded-lg p-6 shadow hover:shadow-xl transition"
+          >
+            <h3 class="text-xl font-bold mb-2">Personal Site</h3>
+            <p class="text-gray-400 mb-2">This website's codebase.</p>
+            <a
+              href="https://github.com/joshespi/personalSite"
+              class="text-yellow-400 hover:underline"
+              >View on GitHub</a
+            >
+          </div>
+          <div
+            class="bg-gray-800 rounded-lg p-6 shadow hover:shadow-xl transition"
+          >
+            <h3 class="text-xl font-bold mb-2">Espi's Passphrase Generator</h3>
+            <p class="text-gray-400 mb-2">
+              Generate secure passphrases easily.
+            </p>
+            <a
+              href="https://passphrase.iamjoshespinoza.com/"
+              class="text-yellow-400 hover:underline"
+              >Try it</a
+            >
+          </div>
 
-  <!-- CSS -->
-  <link rel="stylesheet" href="assets/css/normalize.min.css?v=8.0.1" />
-  <link rel="stylesheet" href="assets/css/styles.css?v=0.0.03" />
-</head>
+          <div
+            class="bg-gray-800 rounded-lg p-6 shadow hover:shadow-xl transition"
+          >
+            <h3 class="text-xl font-bold mb-2">Family Manager Webapp</h3>
+            <p class="text-gray-400 mb-2">Manage family tasks and info.</p>
+            <a
+              href="https://manager.espifam.com/"
+              class="text-yellow-400 hover:underline"
+              >Visit</a
+            >
+          </div>
+        </div>
+      </section>
 
-<body>
-  <header id="mainHeader">
-    <p id="siteTitle">I Am Josh Espinoza</p>
-    <img src="assets/img/espi-btc-lasereyes-400.jpg" alt="Josh" />
-  </header>
+      <!-- Featured Work Section -->
+      <section id="featured-work" class="text-center">
+        <h2 class="text-2xl font-semibold mb-6">Featured Work</h2>
+        <div class="space-y-8">
+          <div class="bg-gray-800 rounded-lg p-6 shadow">
+            <h3 class="text-xl font-bold mb-2">Helpdesk Ticketing System</h3>
+            <p class="text-gray-300 mb-2">
+              Co-developed a custom helpdesk ticketing system from the ground
+              up, integrating with multiple platforms and serving several
+              departments in a school district.
+            </p>
+            <ul
+              class="text-gray-400 text-left max-w-xl mx-auto list-disc list-inside"
+            >
+              <li>Multi-system integration</li>
+              <li>Custom workflows for different departments</li>
+              <li>Scalable and secure architecture</li>
+            </ul>
+          </div>
+          <div class="bg-gray-800 rounded-lg p-6 shadow">
+            <h3 class="text-xl font-bold mb-2">Asset Management Solutions</h3>
+            <p class="text-gray-300 mb-2">
+              Co-developed several asset management systems tailored for various
+              departments and needs, including advanced features beyond simple
+              asset tracking.
+            </p>
+            <ul
+              class="text-gray-400 text-left max-w-xl mx-auto list-disc list-inside"
+            >
+              <li>Asset tracking, repair, and maintenance modules</li>
+              <li>Custom reporting tools</li>
+              <li>
+                Designed for flexibility and department-specific workflows
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
 
-  <main id="siteWrapper">
-    <h1>iamjoshespinoza</h1>
-    <div class="grid2">
-      <article>
-        <h2>My Things</h2>
-        <ul>
-          <li><a href="https://github.com/joshespi">My Github</a></li>
-          <li><a href="https://resume.iamjoshespinoza.com/">Resume</a></li>
-          <li><a href="https://passphrase.iamjoshespinoza.com/">Espi's Passphrase Generator</a></li>
-          <li><a href="https://manager.espifam.com/">Family Manager</a></li>
+      <!-- Skills Section -->
+      <section id="skills" class="text-center">
+        <h2 class="text-2xl font-semibold mb-4">Skills</h2>
+        <div class="flex flex-wrap justify-center gap-4">
+          <span
+            class="bg-gray-800 px-4 py-2 rounded-full text-yellow-300 font-semibold"
+            >PHP</span
+          >
+          <span
+            class="bg-gray-800 px-4 py-2 rounded-full text-yellow-300 font-semibold"
+            >Python</span
+          >
+          <span
+            class="bg-gray-800 px-4 py-2 rounded-full text-yellow-300 font-semibold"
+            >JavaScript</span
+          >
+          <span
+            class="bg-gray-800 px-4 py-2 rounded-full text-yellow-300 font-semibold"
+            >Docker</span
+          >
+          <span
+            class="bg-gray-800 px-4 py-2 rounded-full text-yellow-300 font-semibold"
+            >Linux</span
+          >
+          <span
+            class="bg-gray-800 px-4 py-2 rounded-full text-yellow-300 font-semibold"
+            >Laravel</span
+          >
+          <span
+            class="bg-gray-800 px-4 py-2 rounded-full text-yellow-300 font-semibold"
+            >Wordpress</span
+          >
+        </div>
+      </section>
 
-        </ul>
-      </article>
-      <article>
-        <h3>PHP Projects</h3>
-        <ul>
-          <li><a href="https://github.com/joshespi/personalSite">This Website's Codebase</a></li>
-          <li><a href="https://github.com/joshespi/crypto-price-api">Coinmarketcap price API</a></li>
-          <li><a href="https://github.com/joshespi/family-manager">Family Manager Webapp</a></li>
-        </ul>
-        <h3>Python Projects</h3>
-        <ul>
-          <li><a href="https://github.com/joshespi/espi-passphrase-generator">Espi's Passphrase Generator</a></li>
-          <li><a href="https://github.com/joshespi/random-choice-picker">Random Choice Picker</a></li>
-        </ul>
-        <h2>Other Links</h2>
-        <ul>
-          <li><a href="https://teespring.com/espi-speaks">Get the T-Shirt</a></li>
-        </ul>
-      </article>
-    </div>
-  </main>
-</body>
+      <!-- Contact Section -->
+      <section id="contact" class="text-center">
+        <h2 class="text-2xl font-semibold mb-4">Contact</h2>
+        <p class="text-gray-300 mb-4">
+          Want to work together or have a question?
+        </p>
+        <a
+          href="https://espifam.com/contact/"
+          class="inline-block bg-yellow-400 text-gray-900 font-bold px-6 py-2 rounded hover:bg-yellow-300 transition"
+          >Email Me</a
+        >
+      </section>
+    </main>
 
+    <footer class="text-center py-6 text-gray-500 text-sm">
+      &copy; 2026 Josh Espinoza. All rights reserved.
+    </footer>
+  </body>
 </html>
